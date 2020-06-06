@@ -26,8 +26,18 @@ body {
 a:hover {
   color: gold;
 }
+.pre-header .white {
+  color: white;
+}
 .pre-header i {
   margin: 0 10px 0 10px;
+  color: white;
+}
+.yellow i {
+  color: rgb(247, 213, 20);
+}
+.preheader a:hover {
+  color: rgb(247, 213, 20);
 }
 .background1 {
   background-image: url(../images/person-on-black-suit-jacket-writing-on-white-paper-940829.jpg);
@@ -214,7 +224,25 @@ section {
   height: 80vh;
   margin: 20px 0 20px 0;
 }
-
+/* a:hover {
+  color: rgb(247, 213, 20);
+} */
+i:hover {
+  color: rgb(247, 213, 20);
+}
+.flex2 i {
+  color: white;
+}
+.flex2 i:hover {
+  color: rgb(247, 213, 20);
+}
 /* media queries */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+  .section3-div .d-flex {
+    flex-direction: column;
+  }
+  .section3-div .image-container {
+    margin-left: 0;
+    padding-right: 200px;
+  }
 }
