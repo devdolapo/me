@@ -121,6 +121,11 @@ color: rgb(9, 9, 88);
 .section3-div {
   padding: 80px 0 50px 0;
 }
+.image-container img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid white;
+}
 .section3-paragraph {
   background-color: rgb(247, 213, 20);
   display: inline;
@@ -135,6 +140,12 @@ color: rgb(9, 9, 88);
 .section4-container {
   text-align: center;
   margin: 60px 0 60px 0;
+}
+.section4-container .flex-items img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .section5 {
   height: 80vh;
@@ -176,6 +187,10 @@ color: rgb(9, 9, 88);
   height: 450px;
   width: 100%;
 }
+.section7 .maps .iframes {
+  width: 550px;
+  height: 1000px;
+}
 .transparency7 {
   background-color: rgba(8, 8, 102, 0.548);
   height: 100%;
@@ -206,6 +221,7 @@ input {
 .section8 {
   background-color: rgb(5, 5, 53);
   color: white;
+  height: 60vh;
 }
 .section8 a {
   text-decoration: none;
@@ -224,6 +240,9 @@ section {
   height: 80vh;
   margin: 20px 0 20px 0;
 }
+.section6 {
+  height: 60vh;
+}
 /* a:hover {
   color: rgb(247, 213, 20);
 } */
@@ -241,8 +260,44 @@ i:hover {
   .section3-div .d-flex {
     flex-direction: column;
   }
+  .hide {
+    display: none;
+  }
   .section3-div .image-container {
     margin-left: 0;
     padding-right: 200px;
+  }
+  .section3-div .image-container img {
+    width: 350px;
+  }
+  .section4-container .flex-items img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .section2 {
+    height: 100vh;
+  }
+  .section3 {
+    height: 90vh;
+    padding-bottom: 30px;
+  }
+
+  .section6 {
+    height: 90vh;
+  }
+  .section7 {
+    height: 120vh;
+  }
+  .section7 input {
+    width: 100%;
+  }
+  .section8 {
+    height: 120vh;
+    /* background-color: yellow; */
+  }
+  .footer-flex .d-flex {
+    flex-direction: column;
   }
 }
