@@ -278,6 +278,16 @@ i:hover {
 .section3s {
   height: 50vh;
 }
+
+/* ABOUT PAGE */
+.image-block {
+  height: 250px;
+  width: 100%;
+}
+.flex-item2 {
+  flex-basis: 50%;
+}
+
 /* media queries */
 @media screen and (max-width: 600px) {
   .section3-div .d-flex {
